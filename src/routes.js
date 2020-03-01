@@ -1,7 +1,7 @@
 import React from 'react';
 import { createAppContainer } from 'react-navigation';
 import { createBottomTabNavigator } from 'react-navigation-tabs';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import IconWith from '~/components/IconWith';
 import Main from '~/pages/Main';
 import Fake from '~/components/fake';
 import { colors } from '~/styles';
@@ -34,13 +34,22 @@ const AppNavigator = createBottomTabNavigator(
           iconName = 'cart-outline';
         } else if (routeName === 'Add') {
           iconName = 'plus';
+          around = true;
         } else if (routeName === 'Statics') {
           iconName = 'chart-arc';
         } else if (routeName === 'Profile') {
           iconName = 'account-outline';
         }
 
-        return <Icon name={iconName} color={tintColor} size={25} />;
+        return (
+          <IconWith
+            focused={focused}
+            isAround={around}
+            name={iconName}
+            color={tintColor}
+            size={25}
+          />
+        );
       },
     }),
     tabBarOptions: {
