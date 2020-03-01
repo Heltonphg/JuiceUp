@@ -6,6 +6,7 @@ export const Container = styled.View`
   margin-top: 20px;
   background: transparent;
 `;
+
 export const TabsContainer = styled.ScrollView.attrs({
   horizontal: true,
   showsHorizontalScrollIndicator: false,

@@ -6,7 +6,9 @@ import {
   Perfil,
   ImageBackground,
 } from './styles';
-import HeaderMenu from '~/components/HeaderMenu';
+import TabsMenu from '~/components/TabsMenu';
+import ItemsMenu from '~/components/ItemsMenu';
+
 export default function Main() {
   return (
     <Container>
@@ -19,8 +21,8 @@ export default function Main() {
           />
         </Perfil>
       </HeaderContainer>
-
-      <HeaderMenu />
+      <TabsMenu />
+      <ItemsMenu />
     </Container>
   );
 }

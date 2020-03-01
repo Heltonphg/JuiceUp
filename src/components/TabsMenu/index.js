@@ -14,7 +14,7 @@ import manga from '~/assets/manga.png';
 import pineapple from '~/assets/abacaxi.png';
 import lemon from '~/assets/limao.png';
 
-export default function HeaderMenu() {
+export default function TabsMenu() {
   return (
     <Container>
       <TabsContainer>
