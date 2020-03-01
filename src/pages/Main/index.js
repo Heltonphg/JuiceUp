@@ -10,6 +10,8 @@ import {
 import TabsMenu from '~/components/TabsMenu';
 import ItemsMenu from '~/components/ItemsMenu';
 import Carousel from 'react-native-snap-carousel';
+import { StatusBar } from 'react-native';
+import { colors } from '~/styles';
 
 export default function Main() {
   const entries = [
@@ -20,7 +22,7 @@ export default function Main() {
     },
     {
       image: require('~/assets/cervejaF.jpg/'),
-      title: 'Pinapple Juice',
+      title: 'Pineapple Juice',
       price: '9.40',
     },
     {
@@ -35,6 +37,10 @@ export default function Main() {
 
   return (
     <Container>
+      <StatusBar
+        backgroundColor={`${colors.primary}`}
+        barStyle="light-content"
+      />
       <HeaderContainer>
         <TextLogo>JuiceUp</TextLogo>
         <Perfil>

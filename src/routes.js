@@ -3,15 +3,14 @@ import { createAppContainer } from 'react-navigation';
 import { createBottomTabNavigator } from 'react-navigation-tabs';
 import IconWith from '~/components/IconWith';
 import Main from '~/pages/Main';
+import Cart from '~/pages/Cart';
 import Fake from '~/components/fake';
 import { colors } from '~/styles';
 
 const AppNavigator = createBottomTabNavigator(
   {
+    Cart,
     Main,
-    Cart: {
-      screen: Fake,
-    },
     Add: {
       screen: Fake,
     },
