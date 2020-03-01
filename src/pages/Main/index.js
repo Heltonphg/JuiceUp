@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   Container,
   TextLogo,
@@ -15,17 +15,24 @@ export default function Main() {
   const entries = [
     {
       image: require('~/assets/cervejaU.jpg/'),
+      title: 'Grapes Juice',
+      price: '10.50',
     },
     {
       image: require('~/assets/cervejaF.jpg/'),
+      title: 'Pinapple Juice',
+      price: '9.40',
     },
     {
       image: require('~/assets/cervejaR.jpg/'),
+      title: 'Apple Juice',
+      price: '8.65',
     },
   ];
   function _renderItem({ item, index }) {
     return <ItemsMenu item={item} />;
   }
+
   return (
     <Container>
       <HeaderContainer>
@@ -39,6 +46,7 @@ export default function Main() {
       </HeaderContainer>
       <TabsMenu />
       <TextTitle>Most Popular</TextTitle>
+
       <Carousel
         firstItem={2}
         hasParallaxImages={true}

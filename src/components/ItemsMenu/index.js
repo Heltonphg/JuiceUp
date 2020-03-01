@@ -1,12 +1,36 @@
 import React from 'react';
-
-import { Item, ImageBackground, ContainerTabs, TextTitle } from './styles';
-
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import {
+  Item,
+  ImageBackground,
+  ContainerTabs,
+  TextTitle,
+  ContainerImage,
+  Price,
+  ContainerCard,
+  ContainerText,
+} from './styles';
 export default function ItemsMenu({ item }) {
   return (
     <ContainerTabs>
       <Item>
-        <ImageBackground source={item.image} style={styleImage} />
+        <ImageBackground source={item.image} style={styleImage}>
+          <ContainerImage>
+            <ContainerCard>
+              <ContainerText>
+                <TextTitle>{item.title}</TextTitle>
+                <Price>$ {item.price}</Price>
+              </ContainerText>
+
+              <Icon
+                style={{ paddingRight: 10, marginTop: 10 }}
+                name="cart-outline"
+                color="#fff"
+                size={25}
+              />
+            </ContainerCard>
+          </ContainerImage>
+        </ImageBackground>
       </Item>
     </ContainerTabs>
   );
