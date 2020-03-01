@@ -1,30 +1,14 @@
 import React from 'react';
 
-import {
-  Container,
-  Item,
-  TabsIntems,
-  ImageBackground,
-  ContainerTabs,
-  TextTitle,
-} from './styles';
+import { Item, ImageBackground, ContainerTabs, TextTitle } from './styles';
 
-export default function ItemsMenu() {
+export default function ItemsMenu({ item }) {
   return (
-    <Container>
-      <TextTitle>Most popular</TextTitle>
-      <ContainerTabs>
-        <TabsIntems>
-          <Item>
-            <ImageBackground
-              source={require('~/assets/cervejaR.jpg')}
-              style={styleImage}
-            />
-          </Item>
-          <Item />
-        </TabsIntems>
-      </ContainerTabs>
-    </Container>
+    <ContainerTabs>
+      <Item>
+        <ImageBackground source={item.image} style={styleImage} />
+      </Item>
+    </ContainerTabs>
   );
 }
 const styleImage = {

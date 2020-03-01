@@ -21,6 +21,14 @@ export const TextLogo = styled.Text`
   font-style: italic;
 `;
 
+export const TextTitle = styled.Text`
+  font-size: 17px;
+  color: ${colors.terciary};
+  font-weight: bold;
+  font-family: arial;
+  margin: 20px 26px;
+`;
+
 export const Perfil = styled.View`
   width: 40px;
   height: 40px;
