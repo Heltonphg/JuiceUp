@@ -15,15 +15,12 @@ As interfaces estao sendo desenvilvidas com:
 
 ## Interfaces:
 
-<h2> Dashboard Page: </h2>
+<h2> Pages: </h2>
 <p align="center">
   <img src="https://github.com/Heltonphg/JuiceUp/blob/master/.github/dashboard.png" width="200px">
-</p>
-
-<h2> Cart Page: </h2>
-<p align="center">
   <img src="https://github.com/Heltonphg/JuiceUp/blob/master/.github/cart.png" width="200px">
 </p>
+
 
 
 
