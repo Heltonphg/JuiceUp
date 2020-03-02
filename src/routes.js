@@ -1,6 +1,7 @@
 import React from 'react';
 import { createAppContainer } from 'react-navigation';
 import { createBottomTabNavigator } from 'react-navigation-tabs';
+import { createStackNavigator } from 'react-navigation-stack';
 import IconWith from '~/components/IconWith';
 import Main from '~/pages/Main';
 import Cart from '~/pages/Cart';
@@ -9,8 +10,8 @@ import { colors } from '~/styles';
 
 const AppNavigator = createBottomTabNavigator(
   {
-    Cart,
     Main,
+    Cart,
     Add: {
       screen: Fake,
     },
@@ -63,6 +64,30 @@ const AppNavigator = createBottomTabNavigator(
   },
 );
 
-const Routes = createAppContainer(AppNavigator);
+//! STACK
+const stackPages = createStackNavigator(
+  {
+    Main: {
+      screen: AppNavigator,
+    },
+    Cart,
+  },
+  {
+    defaultNavigationOptions: {
+      headerShown: false,
+    },
+    navigationOptions: ({ navigation }) => {
+      let tabBarVisible = true;
+      if (navigation.state.index > 0) {
+        tabBarVisible = false;
+      }
+      return {
+        tabBarVisible,
+      };
+    },
+  },
+);
+
+const Routes = createAppContainer(stackPages);
 
 export default Routes;

@@ -13,7 +13,7 @@ import Carousel from 'react-native-snap-carousel';
 import { StatusBar } from 'react-native';
 import { colors } from '~/styles';
 
-export default function Main() {
+export default function Main({ navigation }) {
   const entries = [
     {
       image: require('~/assets/cervejaU.jpg/'),
@@ -32,7 +32,7 @@ export default function Main() {
     },
   ];
   function _renderItem({ item, index }) {
-    return <ItemsMenu item={item} />;
+    return <ItemsMenu navigation={navigation} item={item} />;
   }
 
   return (
@@ -51,7 +51,9 @@ export default function Main() {
         </Perfil>
       </HeaderContainer>
       <TabsMenu />
-      <TextTitle>Most Popular</TextTitle>
+      <TextTitle onPress={() => navigation.push('Cart')}>
+        Most Popular
+      </TextTitle>
 
       <Carousel
         firstItem={2}

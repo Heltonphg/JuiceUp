@@ -10,7 +10,7 @@ import {
   ContainerCard,
   ContainerText,
 } from './styles';
-export default function ItemsMenu({ item }) {
+export default function ItemsMenu({ item, navigation }) {
   return (
     <ContainerTabs>
       <Item>
@@ -23,6 +23,7 @@ export default function ItemsMenu({ item }) {
               </ContainerText>
 
               <Icon
+                onPress={() => navigation.push('Cart')}
                 style={{ paddingRight: 10, marginTop: 10 }}
                 name="cart-outline"
                 color="#fff"
