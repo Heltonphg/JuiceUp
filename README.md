@@ -17,13 +17,13 @@ As interfaces estao sendo desenvilvidas com:
 
 <h2> Dashboard Page: </h2>
 <p align="center">
-  <img src="https://github.com/Heltonphg/UXReactN/blob/master/imgs/telaEcommerce.jpg" width="200px">
+  <img src="https://github.com/Heltonphg/JuiceUp/blob/master/.github/dashboard.png" width="200px">
 </p>
 
 <h2> Cart Page: </h2>
 <h3>Tela de Menu</h3>
 <p align="center">
-  <img src="https://github.com/Heltonphg/UXReactN/blob/master/imgs/cardapio.jpg" width="200px">
+  <img src="https://github.com/Heltonphg/JuiceUp/blob/master/.github/cart.png" width="200px">
 </p>
 
 
