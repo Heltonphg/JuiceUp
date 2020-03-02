@@ -1,62 +1,32 @@
-<h1 align="center">
-<img alt="" title="" src="" width="" />
-  <!-- trocar: 'você pode colocar uma imagem (logo) que represente seu projeto (visualmente) -->
-</h1>
+## 💻 Projeto UX/UI
 
-<h2 align="center">Template para README.md</h2>
+Esse repositório visa ampliar meus conhecimentos em UI/UX designer.
 
-<p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rlocatelli9/template-README">
-  <!-- trocar: 'rlocatelli9/template-README' pelo caminho do seu respositório -->
+## :rocket: Tecnologias
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/rlocatelli9/template-README">
-  <!-- trocar: 'rlocatelli9/template-README' pelo caminho do seu respositório -->
+As interfaces estao sendo desenvilvidas com:
 
-  <a href="https://github.com/rlocatelli9/template-README/commits/master">
-  <!-- trocar: 'rlocatelli9/template-README' pelo caminho do seu respositório -->
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rlocatelli9/template-README">
-     <!-- trocar: 'rlocatelli9/template-README' pelo caminho do seu respositório -->
-  </a>
+- [React Native](https://facebook.github.io/react-native/)
 
-  <a href="https://github.com/rlocatelli9/template-README/issues">
-   <!-- trocar: 'rlocatelli9/template-README' pelo caminho do seu respositório -->
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/rlocatelli9/template-README">
-     <!-- trocar: 'rlocatelli9/template-README' pelo caminho do seu respositório -->
-
-  </a>
-
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+<p align="left">
+    <img alt="GoStack" src="https://github.com/Heltonphg/UXReactN/blob/master/rn.png" width="130px" />
 </p>
 
+
+## Interfaces:
+
+<h2> Dashboard Page: </h2>
 <p align="center">
-  <a href="#bookmark_tabs-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <img src="https://github.com/Heltonphg/UXReactN/blob/master/imgs/telaEcommerce.jpg" width="200px">
 </p>
 
-<br>
+<h2> Cart Page: </h2>
+<h3>Tela de Menu</h3>
+<p align="center">
+  <img src="https://github.com/Heltonphg/UXReactN/blob/master/imgs/cardapio.jpg" width="200px">
+</p>
 
-## :bookmark_tabs: Tecnologias
 
-Technologies used in the development of the project:
-
-- [Markdown](https://en.wikipedia.org/wiki/Markdown)
-- [Github](https://github.com)
-- [Emoji](https://gist.github.com/rxaviers/7360908)
-
-## 💻 Projeto
-
-Descrição do Projeto
-
-## 🤔 Como contribuir
-
-- Faça um fork desse repositório;
-- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
-- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
-- Faça push para a sua branch: `git push origin minha-feature`.
-
-Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
 ## :memo: Licença
 
