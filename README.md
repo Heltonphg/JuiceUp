@@ -21,7 +21,6 @@ As interfaces estao sendo desenvilvidas com:
 </p>
 
 <h2> Cart Page: </h2>
-<h3>Tela de Menu</h3>
 <p align="center">
   <img src="https://github.com/Heltonphg/JuiceUp/blob/master/.github/cart.png" width="200px">
 </p>
