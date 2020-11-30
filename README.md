@@ -1,6 +1,6 @@
-## 💻 Projeto UX/UI
+## 💻 JuiceUp
 
-Esse repositório visa ampliar meus conhecimentos em UI/UX designer.
+Esse repositório visa ampliar meus conhecimentos em UI/UX.
 
 ## :rocket: Tecnologias
 
